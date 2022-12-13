@@ -10,13 +10,13 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "25181093"))
 API_HASH = getenv("API_HASH", "43ce5a99e3c109cbfc52291f9e51f6b2")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5329745117:AAEAzfY7efQYhHpebAx_Srn8SVAnohJ5eY0")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ziddiboy:ziddiboy1760@cluster0.qim8l.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "sukkun ダ ᴍᴜsɪᴄ")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-100883822164))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "honney ダ ᴍᴜsɪᴄ")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5140509190").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,12 +25,12 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TheAnonymousX/AnonXM
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/friends_forever_581")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/nobby_143")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")

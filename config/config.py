@@ -10,11 +10,11 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "25181093"))
 API_HASH = getenv("API_HASH", "43ce5a99e3c109cbfc52291f9e51f6b2")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5329745117:AAEAzfY7efQYhHpebAx_Srn8SVAnohJ5eY0")
+BOT_TOKEN = getenv("BOT_TOKEN", "5739448595:AAHaXUvk2O63lA6ytWBgAPzHNuXF0VQvMQQ")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ziddiboy:ziddiboy1760@cluster0.qim8l.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "1001883822164))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "honney ダ ᴍᴜsɪᴄ")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001883822164))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "sukkun music bot")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5140509190").split()))
 

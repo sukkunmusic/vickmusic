@@ -7,16 +7,16 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "28736142"))
-API_HASH = getenv("API_HASH", "eb35ea57ece186c3b0bd9239e7aafecb")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5521375224:AAGh3MNOvDzxKcPZJw5VyL2N7xP-MAgNNrg")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://arjun:krishna@cluster0.cbb8evn.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001868457610"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "miffy music bot")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5323065452").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "AQCDsFuqJKinNRwx4guUZUfokx47Zfq_8uU1BPXrWkRoZBWukIniMaJ1jgFHtqifk3XYVUm4LOUmp-oYabWxEW-LJo7bERKgAFlARZ634twvFeytWFYRGkX1wPBUkLbu-6ItrHIgo8i9bQ8Hb-xG6X-qPDPBmaFYrkkTA6iRtE7ZyFsk5V5iePfQ-8RPHPPVDrMPu1OmWpMm8zAGC0_Pblj_k3ThgoLBrZekIaBzbrjJex1fN62CpO42A6ckePDq03MH1cqenbZTM734dxAtlqedO5Q-0u0ORbikLBnV4T8Z2tOlM6knRxj_Fdgd1PLAixz8cOpgfA2ZV58U5Eo07ChgfdoOigA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
